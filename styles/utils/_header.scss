@@ -1,0 +1,31 @@
+@mixin sides($background-color){
+  flex-grow:1;
+  background-color: $background-color;
+}
+
+@mixin center($background-color){
+  flex-grow: 2.5;
+  background-color: $background-color;
+}
+
+@mixin border-radius($topleft, $topright, $bottomright, $bottomleft) {
+  border-top-left-radius: $topleft;
+  border-top-right-radius: $topright;
+  border-bottom-right-radius: $bottomright;
+  border-bottom-left-radius: $bottomleft;
+}
+
+.head{
+  height: 100%;
+}
+.separate{
+  margin-top: 6px;
+  height: 12px;
+  border: 1px solid #33455d;
+  align-self: center;
+  margin-left: 7px;
+
+}
+
+
+
